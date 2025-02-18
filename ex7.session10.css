@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.news-section {
+    width: 380px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.news-section h2 {
+    margin-bottom: 15px;
+}
+.main-news {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.main-news img {
+    width: 100%;
+    border-radius: 8px;
+}
+.main-news .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    color: white;
+    padding: 10px;
+}
+.news-list {
+    margin-top: 15px;
+}
+.news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.news-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.ranking-section {
+    width: 400px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.ranking-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.ranking-section th, .ranking-section td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.ranking-section th {
+    background-color: #f4f4f4;
+}
