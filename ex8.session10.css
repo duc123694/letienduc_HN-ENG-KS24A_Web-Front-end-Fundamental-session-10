@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.container{
+    border: 1px;
+    width: 100%;
+}
+.title{
+    width: 100%;
+    gap: 10px;
+    border-top:1px solid #ede9e9 ;
+    border-bottom: 1px solid #ede9e9;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.title a{
+    text-decoration-line:none ;
+    color: black;
+    padding: 10px;
+}
+.center{
+    display: flex;
+    padding: 20px;
+}
+img{
+    position: absolute;
+}
+h3{
+ border: 1px;
+ width: 350px;
+ height: 70px;
+ background-color: white;
+ position: relative;
+ padding: 10px;
+ top: 180px;
+ left: 40px;
+}
+.content1{
+    border: 1px;
+    width: 500px;
+    height: 300px;
+}
+.content1 p{
+    font-size: 14px;
+    margin-top: 190px;
+}
+.content2{
+    line-height: 1.5;
+}
+.text{
+    border-bottom: 1px solid  #ede9e9;
+    margin: 10px 0px;
+}
+h4{
+    border: 1px;
+    background-color: yellow;
+    padding: 10px;
+    width: 140px;
+}
+.content3{
+    border: 1px ;
+    background-color: #f8f8f8;
+    width: 400px;
+    height: 450px;
+    margin-left: 25px;
+}
+.content3 p{
+    padding: 15px;
+    line-height: 2.3;
+}
+h2{
+    padding: 15px;
+    margin: 15px 0;
+}
+.boder a{
+    text-decoration-line:none ;
+    margin-left: 330px ;
+    color: blue;
+}
+.end p{
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 45px;
+}
+.end form {
+    margin-left:  150px;
+}
+.end form label a{
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+    background-color: blue;
+    text-decoration-line: none;
+}
